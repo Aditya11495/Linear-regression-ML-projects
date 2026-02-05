@@ -1,9 +1,4 @@
-#When Should You Use KNN?
 
-# ✔ Small dataset
-# ✔ Clear distance-based pattern
-# ✔ Non-linear boundaries
-# ✔ Baseline model comparison
 
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
@@ -24,3 +19,4 @@ if prediction[0] == 0:
     print("Result: Fail")   
 else:
     print("Result: Pass")
+
